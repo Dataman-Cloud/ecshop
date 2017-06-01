@@ -1,0 +1,1610 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>吉利知豆D1 城市微行纯电动车 购车订金</title>
+	<meta name="description" content="吉利知豆D1 城市微行纯电动车 购车订金">
+	<link type="text/css" href="http://static.esgcc.com.cn/static/css/3rd/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css" href="http://static.esgcc.com.cn/static/css/commons/common.css?v=1.0.1116" rel="stylesheet" />
+	<link type="text/css" href="http://static.esgcc.com.cn/static/css/commons/product.css?v=1.0.1116" rel="stylesheet" />
+	<link type="text/css" href="http://static.esgcc.com.cn/static/css/commons/confirm.css?v=1.0.1116" rel="stylesheet" />
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/3rd/jquery-1.11.1.min.js"></script>
+	<!-- Ajax请求 -->
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/commons/product_view.js?v=1.0.1116"></script>
+	<!--商品详情页控制js，页面在httpclient调用分析子站前优先加载此js，保证商品基本信息最先显示出来-->
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/detail/electroCarDetail.js?v=1.0.1116"></script>
+</head>
+<body>
+<!-- 隐藏域 -->
+<input type="hidden" id="userId_hid" value="" />
+<input type="hidden" id="username_hid" value="" />
+<input type="hidden" id="merchantId_hid" value="00169749">
+<input type="hidden" id="isPreview_hid" value="0">
+<input type="hidden" id="dProvinceId_hid" value="10">
+<input type="hidden" id="dCityId_hid" value="1001">
+<input type="hidden" id="detaildomainUrl" value="esgcc.com.cn" />
+<input type="hidden" id="root_url" value="http://detail.esgcc.com.cn" />
+<!-- 当前页3面的域 -->
+<input type="hidden" id="getRootUrl" value="http://detail.esgcc.com.cn" />
+	<!-- 顶部注册信息 -->	
+		 <!--即时通信-->
+<link type="text/css" href="http://static.esgcc.com.cn/static/css/im/web-im.css?v=1.0.1116" rel="stylesheet" />
+<!-- general域名-->
+<input id="generalArea" value="http://general.esgcc.com.cn" style="display:none"/>
+<!-- main域名-->
+<input id="mainArea" value="http://www.esgcc.com.cn" style="display:none"/>
+<!-- uc域名L -->
+<input id="userArea" value="https://user.esgcc.com.cn" style="display:none" />
+<!-- uc pototype -->
+<input id="ucUrl" value="http://user.esgcc.com.cn" style="display:none" />
+<!-- search域名L -->
+<input id="searchArea" value="http://search.esgcc.com.cn" style="display:none" />
+<!-- site.domain -->
+<input id="domain" value="esgcc.com.cn" style="display:none" />
+<!-- site.im.url -->
+<input id="imUrl" value="http://im.esgcc.com.cn" style="display:none" />
+<!-- auto -->
+<input id="auto" value="http://auto.esgcc.com.cn" style="display:none" />
+<!-- 采购专区 -->
+<input id="epp" value="http://b.esgcc.com.cn" style="display:none" />
+		<!-- 顶部注册信息 -->
+		<div class="topbar_wrap">
+			<div class="layout">
+				<div class="topbar">
+					<ul class="leftArea">
+						<li class="welcome"><a id="addcollect" onclick="addcollect()"  rel="sidebar">收藏本站</a></li>
+						<li>
+							<a class="qiye_logo"  href="http://emall.esgcc.com.cn">企业商城</a>
+						</li>
+						<li>
+							<!-- 
+							<a href="http://www.esgcc.com.cn/smartHome/showSmartHomeApp/index.htm" class="appDown">
+								<b></b>
+								智能控制下载
+							</a>
+							 -->
+							<a href="https://www.95598pay.com/index.jsp" >
+								<b></b>
+								电力宝
+							</a>
+						</li>
+<!-- 						<li> -->
+<!-- 							客服热线： -->
+<!-- 							<span class="font16">01095598-1-8</span> -->
+<!-- 						</li> -->
+					</ul>
+					<ul class="rightArea">
+					<span class="fl">Hi,欢迎光临国网商城！</span>
+
+						<li id="loginOrLogout">
+							<!-- js插入【登录】or【退出】 -->
+						</li>
+<!-- 						<li class="topNavShow"> -->
+<!-- 							<a class="my_store" href="http://user.esgcc.com.cn/favoriteProduct/show"> -->
+<!-- 								<b></b> -->
+<!-- 								我的收藏 -->
+<!-- 							</a> -->
+<!-- 							<ul> -->
+<!-- 								<li> -->
+<!-- 									<a href="http://user.esgcc.com.cn/favoriteProduct/show">收藏的商品</a> -->
+<!-- 								</li> -->
+<!-- 								<li> -->
+<!-- 									<a href="http://user.esgcc.com.cn/favoriteStore/show">收藏的店铺</a> -->
+<!-- 								</li> -->
+<!-- 							</ul> -->
+<!-- 						</li> -->
+						<li class="topNavShow">
+							<a  style="cursor:default;" class="my_store">商户服务</a>
+							
+							<ul>
+							    <li>
+							<a class="my_store" href="http://merchant.esgcc.com.cn/wantIntoShop">商户中心</a>
+						       </li>
+								<li>
+							<a href="http://user.esgcc.com.cn/reg2/reg_step1">商户入驻</a>
+
+						       </li>
+						       <li>
+						       <a target="_blank" href="http://general.esgcc.com.cn/general_topmessage/topbar_ruzhu.htm">招商说明</a>
+						       </li>								
+
+							</ul>
+						</li>
+						
+						<li class="topNavShow">
+							<a  style="cursor:default;"  class="my_store" href="#">
+								<b></b>
+								客服中心
+							</a>
+							<ul>							   
+								<li>
+									<a href="http://static.esgcc.com.cn/help_center/helpcenter_index.html?rurl=http://www.esgcc.com.cn" >帮助中心</a>
+								</li>
+								<!-- <li>
+									<a href="" onclick="inBuilding()">售后服务</a>
+								</li> -->
+								<li>
+									<a id="service_online_topbar_hidetag" href="http://im.esgcc.com.cn/web-im/managerImService/init" target="_blank">在线客服</a>
+								</li>
+								<!-- <li>
+									<a href="" onclick="inBuilding()">投诉中心</a>
+								</li> -->
+								<li><a onclick = "checkKFEmail()">客服邮箱</a></li>
+								
+							</ul>
+						</li>
+	
+						
+						<li class="topNavShow" id="top_navigation">
+							<a  style="cursor:default; " class="my_store">网站导航</a>
+							<ul class="topNavmap">
+								<li>
+									<h1>商城特色</h1>
+									<div class="topNavmapcontent">
+										<a target="_blank" href="http://www.esgcc.com.cn/smartHome/showSmartWhat/index.htm">智能家居APP</a>
+										<a target="_blank" href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm">智生活</a>
+<!-- 										<a target="_blank"  href="http://auto.esgcc.com.cn/?site=esgcc">电动车</a> -->
+									</div>
+								</li>
+								<li>
+									<h1>热门品类</h1>
+									<div class="topNavmapcontent">
+										<a target="_blank" onclick="goSearchPage(this)">电动汽车</a>
+										<a target="_blank" onclick="goSearchPage(this)">小型电动车</a>
+										<a target="_blank" onclick="goSearchPage(this)">智能空调</a>
+										<a target="_blank" onclick="goSearchPage(this)">智能电视</a>
+										<a target="_blank" onclick="goSearchPage(this)">智能插座</a>
+										<a target="_blank" onclick="goSearchPage(this)">新能源设备</a>
+										<a target="_blank" onclick="goSearchPage(this)">厨房家电</a>
+										<a target="_blank" onclick="goSearchPage(this)">光伏应用产品</a>
+									</div>
+								</li>
+								<li>
+									<h1>热点推荐</h1>
+									<div class="topNavmapcontent">
+										<a target="_blank" href="http://emall.esgcc.com.cn">企业采购</a>
+										<a target="_blank" href="https://www.95598pay.com">电力宝</a>
+									</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+<!-- 		<div class="shade_layout" style="display:none;"></div> -->
+    <div class="help_windows" id="emailcheck" style="display:none;">
+        <a class="ico_close" onclick="closeemail()">关闭</a>
+        <div class="login_pop">
+            <div class="hd">
+                <h2>国网商城客服邮箱</h2>
+            </div>
+            <div class="bd">
+                <div class="emailPop">
+                    <h2>
+                        <img src="http://static.esgcc.com.cn/static/images/img/email_ico_65x65.jpg" height="65" width="65" class="email" alt="邮件" />
+                        <span class="emailTxt" onclick="closecheck()">esgcc@sgcc.com.cn</span>
+                    </h2>
+                    <p>
+                        尊敬的客户您好！在购物过程中遇到任何问题，您都可以发邮件到此邮箱，我们的客服人员将以最快的速度回复您，感谢您对国网商城的支持！
+                    </p>
+                    <div class="btns">
+                        <span class="btn btn-sm btn-sgGreen" onclick="closecheck()"> 好的，知道了</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+		<div class="IM_wrap">
+		<b class="IM_ico IM_offline" id="im_msg"></b>
+		<div class="IM_popup">
+			<div class="IM_title">
+				<span>最近联系人</span><b class="im_close"></b>
+			</div>
+			<ul class="IM_list">
+			</ul>
+		</div>
+	</div>
+	<div class="imPop_windows" id="im_pop_windows" style="z-index:1000">
+	<div class="handler_title"><b class="imPop_close"></b></div>		
+		<iframe width="544" height="444" frameborder="no"  src="" id="imIframe">
+		</iframe>
+	</div>
+	<!-- 全局js -->
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/im/jquery.easydrag.js?v=1.0.1116"></script>
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/general_new_topbar.js?v=1.0.1116"></script>
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/general_manager_cookie.js?v=1.0.1116"></script>
+	<!-- 编码 -->
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/commons/Base64Utils.js?v=1.0.1116"></script>
+	 
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/im/web-im.js?v=1.0.1116"></script>
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/im/post-im.js?v=1.0.1116"></script> 
+	
+
+
+	
+	
+	
+	
+	
+
+	<!-- 头部搜索 -->
+		<link href="http://static.esgcc.com.cn/static/css/3rd/jquery-ui.css" rel="stylesheet">
+
+<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/jquery-ui.js?v=1.0.1116" charset="utf-8"></script>
+<input id="search_prodId" value="http://search.esgcc.com.cn/managerSearch/showSearchPage" type="hidden"/>
+<input id="search_shopId" value="http://search.esgcc.com.cn/storeManagerSearch/showSearchPage" type="hidden"/>
+<!-- 购物车中的商品数量 -->
+<input style="display:none;" id="cartArea" value="http://cart.esgcc.com.cn" />
+<!-- head-search购物车跳转 -->
+<input style="display:none;" value="http://detail.esgcc.com.cn/showDetail/init/" id="product_href" />
+<!-- 头部搜索 -->
+<div class="header">
+	<div class="layout">
+		<h1 class="logo">
+			<a href="http://www.esgcc.com.cn">
+				<img alt="" src="http://static.esgcc.com.cn/static/images/logo/logo_person.jpg" alt="国网商城"/>
+			</a>
+			<a href="http://www.esgcc.com.cn" class="channel_name"></a>
+		</h1>
+
+<!-- 		<div class="topNav_searchBar"> -->
+<!-- 			<div class="searchBar"> -->
+<!-- 				<input type="text" value="" name="" id="to_seach_id" class="searchInput" /> -->
+<!-- 				<input type="button" value="搜索" name="" class="searchBtn" /> -->
+<!-- 			</div> -->
+			 <div class="topNav_searchBar">
+			      <div class="searchBar">
+			       <div class="header_search_bar">
+			       <ul class="search_type">
+			       <li class="selected" data="0" >商品</li>
+			       <li class="item top" style="display: none;" data="0">商品</li>
+			       <li class="item" style="display: block;" data="1">店铺</li>
+			       </ul>
+			       </div>
+			        <input type="text" value="" name="" maxlength="100"  id="to_seach_id"  class="searchInput" /> 
+			        <input type="button" value="搜索" name="" class="searchBtn" />
+			      </div>
+			<div class="search_hot" id="hot_search_key">
+				<span>热门搜索：</span>
+			<!-- 	-->
+			</div>
+		</div>
+
+		<div class="shoppingcart_wrap">
+			<dt>
+				<span>我的购物车</span>
+				<div class="num">
+					<div class="num_con" id="cartshopnum">0</div>
+				</div>
+			</dt>
+			<dd>
+				<div class="shopcart_bd">
+					<div class="hd">
+						<h4 class="fl">最新加入的商品</h4>
+					</div>
+					<div class="bd" id="cart_list">
+						<!-- js 插入迷你购物车数据 -->
+					</div>
+					<div class="ft">
+						共 <b id="cartshopnum2">0</b>
+						件商品&#12288;共计
+						<strong id="total_count">0.00</strong>
+						<br>
+						<a class="btn_payforgoods" title="去购物车结算" id="productsmessage" href="javascript:viod(0)">去购物车结算</a>
+						<input id="getCartCountUrl" value="http://cart.esgcc.com.cn/showCart/init" type="hidden" />
+					</div>
+				</div>
+			</dd>
+		</div>
+	<div class="topSearch_myShop_wrap">
+			<div class="topSearch_myShop">
+				<div class="ico"></div>
+				<a href="http://user.esgcc.com.cn/order/list" class="url">我的商城</a>
+				
+			</div>
+			<div class="shopcart_bd">
+				<div class="bd">
+					<ul class="myshop-links">
+						<li>
+							<a href="http://user.esgcc.com.cn/order/list">我的订单></a> 
+						</li>
+						<li>
+							<a href="http://user.esgcc.com.cn/integral/getCoupons0">优惠券></a>
+						</li>
+						<li>
+							<a href="http://user.esgcc.com.cn/integral/init">我的积分></a>
+						</li>
+						<li>
+							<a href="http://user.esgcc.com.cn/order/message_list">消息通知></a>
+						</li>
+						<li>
+							<a href="http://user.esgcc.com.cn/viewhis/list">浏览历史></a>
+						</li>
+					</ul>
+					<!-- <dl class="myshop-history">
+						<dt>
+							<a href="#">查看浏览历史>></a>
+						</dt>
+						<dd>
+							<a href="#">
+								<img src="http://www.esgcc.com.cn/static/images/img/index_hot_img2.jpg">
+							</a>
+						</dd>
+						<dd>
+							<a href="#">
+								<img src="http://www.esgcc.com.cn/static/images/img/index_hot_img2.jpg">
+							</a>
+						</dd>
+						<dd>
+							<a href="#">
+								<img src="http://www.esgcc.com.cn/static/images/img/index_hot_img2.jpg">
+							</a>
+						</dd>
+						<dd>
+							<a href="#">
+								<img src="http://www.esgcc.com.cn/static/images/img/index_hot_img2.jpg">
+							</a>
+						</dd>
+					</dl> -->
+				</div>
+			</div>
+			
+			
+	</div>
+	</div>
+</div>
+<input type="hidden" id='thisVmUrl' value="http://search.esgcc.com.cn"/>
+	<!-- 全局js -->
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/general_new_topsearch.js?v=1.0.1116" charset="utf-8"></script>
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/autocomplete_plugin.js?v=1.0.1116" charset="utf-8"></script>
+
+
+
+<input type="hidden" id="baseGeneralUrl" value="http://general.esgcc.com.cn"/>
+
+	<!-- 商品分类 -->
+		<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/payEle.js"></script>
+<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/my_center.js" charset="utf-8"></script>
+<link type="text/css" href="http://static.esgcc.com.cn/static/css/main/index_v3.0.css?v=1.0.1116" rel="stylesheet" />
+<link type="text/css" href="http://static.esgcc.com.cn/static/css/commons/confirm.css?v=1.0.1116" rel="stylesheet" />
+
+<!-- 95598绑定页 -->
+<div  id="clt_popup_editor" style="display:none">
+	<div class="shade_layout"></div>
+	<div class="pop_windows"  style="margin-top: -30px;">
+		<div class="layout">
+			<b class="ico_close clt_close_popup_editor">关闭</b>
+			<form id="bindForm" method="post" >
+			<div class="main">
+				<div class="hd">
+					<h2><span id="titSpan"></span>账号绑定
+					<!-- &nbsp;&nbsp;
+  						 <span style="padding-left:220px;"><a href="http://www.95598.cn/member/register.shtml" target="_blank">
+  						 <span style="">快速注册95598账号</span></a></span>-->
+				</div>
+				<div class="pl25 mt25 clearfix">
+					<div class="common_form_field address_add color666">
+						<div class="item">
+                        	<div class="common_form_line">
+                            	<div class="common_form_label" style="width:100px;">
+									<span class="req">*</span>用户名：
+								</div>
+                                <div class="common_form_field">
+                                	<input id="login_account" type="hidden" class="text"/>
+                                	<span class="colorRed" id="login_account_warn"  ></span>
+                                </div>
+                            </div>
+						</div>
+                        <div class="item">
+                        	<div class="common_form_line">
+                            	<div class="common_form_label" style="width:100px;"><span class="req">* </span>95598账号：</div>
+                                <div class="common_form_field">
+                                <input id="sgcsNo" name="sgcsNo" type="text" class="text"/>
+                                    <span style="color:red;" id="username_95598_warn"></span>
+                                </div>
+                                
+                            </div>
+						</div>
+						<div class="item">
+                        	<div class="common_form_line">
+                            	<div class="common_form_label" style="width:100px;">
+                                	<span class="colorRed">* </span>95598密码：
+                                </div>
+                            	<div class="common_form_field dd">
+                                	<span id="provinceCityCountyDesc"></span>
+                                	<input id="passWord" name="passWord" type="password" class="text"/>
+                                	<span style="color:red;" id="pwd_95598_warn"></span>
+                                </div>
+                                
+                            </div>
+                            <span style="padding-left: 175px;">还没有95598账号？
+                            <a href="http://www.95598.cn/person/index.shtml" target="_blank">
+       						 点击注册</a></span>
+                        </div>
+					</div>
+				</div>
+				<div class="address_btn" style="padding-left:193px;padding-top:0px;">
+                    <input type="button" value="确认绑定" class="btn btn-sm btn-sgGreen ctl_save">
+                </div>
+			</div>
+			</form>
+		</div>
+	</div>
+  </div>
+
+<!-- 商品分类 -->
+<div id="nav_wrap">
+	<div class="nav_wrap">
+		<div class="nav">
+		<input type="hidden" value="http://search.esgcc.com.cn/managerSearch/showSearchPage" id="hideSearchArea" />
+			<div class="categorys fl cate_h1_show ">
+				<span class="cate_h1">全部商品分类</span>
+            <ul class="categorys_list"  style="display:none;">
+					<ul>
+	<li class="category_item1 plug_show_hd">
+		<div class="category_link">
+			<i class="icon iconfont" style="margin-left: 0px;"></i> <a href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm" target="_blank">智能家居</a></div>
+		<!-- 弹出子类 -->
+		<div class="category_detail_con plug_show_bd" style="display: none;">
+			<div class="category_seclist_item">
+				<h1><a href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm#znfa" target="_blank">智能家居解决方案</a></h1>
+				<div class="category_detail_left">
+					<dl><dd>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ERXdNREU9" target="_blank">家电智能化解决方案</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ERXdNREk9" target="_blank">照明类解决方案</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ERXdNRFE9" target="_blank">环境类解决方案</a>
+<a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ERXdNRFk9" target="_blank">综合类解决方案</a>
+<!--<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ERXdNRFU9" target="_blank">健康类解决方案</a>-->
+<!--<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ERXdNRE09" target="_blank">安防类解决方案</a>-->
+                                       </dd></dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1><a href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm#znjd" target="_blank">智能家电</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ESXdNREU9" target="_blank">智能大家电</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ESXdNREk9" target="_blank">智能影音</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ESXdNRE09" target="_blank">智能生活电器</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ESXdNRFE9" target="_blank">智能厨房电器</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1><a href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm#znzm" target="_blank">智能照明</a></h1>
+				<div class="category_detail_left">
+					<dl><dd>
+<a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ETXdNREU9" target="_blank">智能开关</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01ETXdNREk9" target="_blank">智能灯具</a>
+                                       </dd></dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1><a href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm#znkz" target="_blank">智能控制</a></h1>
+				<div class="category_detail_left">
+					<dl><dd>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EUXdNREVqTVRNd01ERXdNREU9" target="_blank">智能网络设备</a>
+<a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EUXdNREk9" target="_blank">智能插排插座</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EUXdNRE09" target="_blank">智能控制器</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EUXdNRFFqTVRRd01ERXdNRFE9" target="_blank">智能传感器</a>
+<a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EUXdNRFVqTVRRd01ERXdNRFk9" target="_blank">智能窗帘</a>
+<a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EUXdNRFk9" target="_blank">智能墙壁插座</a>
+                                       </dd></dl>
+				</div>
+			</div>
+
+                                <div class="category_seclist_item">
+				<h1><a href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm#znaf" target="_blank">智能安防</a></h1>
+				<div class="category_detail_left">
+					<dl><dd>
+<a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EVXdNREU9" target="_blank">智能摄像头</a>
+<a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EVXdNRFE9" target="_blank">智能报警器</a>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EVXdNRFU9" target="_blank">智能紧急求助按钮</a>
+<!--<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EVXdNREk9" target="_blank">智能门禁</a>-->
+<!--<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EVXdNRE09" target="_blank">智能电控锁</a>-->
+                                       </dd></dl>
+				</div>
+			</div>
+
+                                <div class="category_seclist_item">
+				<h1><a href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm#znjk" target="_blank">智能健康</a></h1>
+				<div class="category_detail_left">
+					<dl><dd>
+<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EWXdNREU9" target="_blank">智能体检</a>
+<a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&allCatId=TWpNd01EWXdNRElqTVRjd01ERXdNRFlqTVRNd01ESXdNRFk9" target="_blank">可穿戴设备</a>
+                                       </dd></dl>
+				</div>
+			</div>
+
+			<!--弹出子类广告位--><!-- <div class="submenu_pop_ad">
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                            </div>--></div>
+	</li>
+	<li class="category_item2 plug_show_hd">
+		<div class="category_link">
+			<i class="icon iconfont" style="margin-left: 0px;"></i> <a href="http://www.esgcc.com.cn/electrocar/home/index.htm" id="pilotCartName" target="_blank">电动车</a></div>
+		<div class="category_detail_con plug_show_bd" style="display: none;">
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/electrocar/home/index.htm#floor3" target="_blank" title="电动汽车/服务">电动汽车/服务 </a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRrd01ESXdNREU9" target="_blank">纯电动汽车</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRrd01ESXdNREk9" target="_blank"> 油电混动汽车</a> <a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRrd01ESXdNRE09" target="_blank"> 电动汽车桩车一体化</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRrd01ESXdNRFE9" target="_blank"> 电动汽车试驾</a> <!--  <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&allCatId=TVRrd01ESXdNRFU9" 
+
+target="_blank">
+电动汽车租赁</a> --></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/electrocar/home/index.htm#floor5" target="_blank" title="充电桩/服务">充电桩/服务</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRrd01EUXdNREU9" target="_blank">充电桩产品</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRrd01EUXdNREk9" target="_blank"> 充电桩服务</a> <a class="recom" href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRrd01EUXdNRE09" target="_blank"> 充电桩及安装服务</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a class="recom" href="http://www.esgcc.com.cn/electrocar/home/index.htm#floor6" target="_blank" title="小型电动车">小型电动车</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRrd01ERXdNRFE9" target="_blank">平衡车/体感车/滑板车</a> 
+  <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&sortType=id&targetPage=1&sortWay=&allCat=NTV1NDVZV3o1WWlHNTdHN091ZVV0ZVdLcU9pSHF1aWhqT2k5cGkvbWthbm1pWmpvdmFZPQ==&allCatId=TVRrd01ERXdNRFFqTVRrd01ERXdNRFk9" target="_blank">电动自行车</a></dd>
+					</dl>
+				</div>
+			</div>
+			<!--弹出子类广告位--><!-- <div class="submenu_pop_ad">
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                            </div>--></div>
+	</li>
+	<li class="category_item3 plug_show_hd">
+		<div class="category_link">
+			<i class="icon iconfont" style="margin-left: 0px;">?</i> <a href="http://www.esgcc.com.cn/channel/channel_jiadian.htm" target="_blank">家用电器 </a></div>
+		<div class="category_detail_con plug_show_bd" style="display: none;">
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_jiadian.htm#floor1" target="_blank">大家电</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRBd01ERXdNREU9" target="_blank">空调</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRBd01ERXdNRE09" target="_blank"> 洗衣机</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRBd01ERXdNRFVqTVRBd01ERXdNRGc9" target="_blank">冰箱/冰柜/冷柜/酒柜</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRBd01ERXdNRFE9" target="_blank"> 电视</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRBd01ERXdNRFlqTVRBd01ERXdNRGNqTVRFd01ERXdNRFk9" target="_blank">功放/音响/音箱 </a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRBd01ERXdNREk9" target="_blank"> 电热水器</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRBd01ERXdNVEE9" target="_blank"> 家电配件</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRBd01ERXdNRGtqTVRNd01ERXdNRE1qTVRNd01ERXdNRFlqTVRNd01ERXdNRFFqTVRNd01ERXdNRFVqTVRNd01ETXdNREU9" target="_blank"> 数码设备及配件</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_jiadian.htm#floor2" target="_blank">环境电器</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNREVqTVRFd01ERXdNREk9" target="_blank">空气环境电器</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRBd01ESXdNREVqTVRFd01ERXdNRFE9" target="_blank">清洁电器</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNekFqTVRFd01ERXdNellqTVRBd01ETXdNREVqTVRBd01ETXdNRElqTVRFd01ERXdNRFU9" target="_blank"> 温度电器</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_jiadian.htm#floor3" target="_blank">生活电器</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNVEVqTVRFd01ERXdNamNqTVRFd01ERXdNamc9" target="_blank">水设备</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNRE1qTVRFd01ERXdNVFlqTVRFd01ERXdNVGc9" target="_blank">衣物电器</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNalU9" target="_blank"> 生活电器配件</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRJd01ERXdNRGM9" target="_blank"> 卫浴电器</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_jiadian.htm#floor4" target="_blank">厨房电器</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRJd01ERXdNREVqTVRJd01ERXdNRElqTVRJd01ERXdNRFFqTVRJd01ERXdNRFVqTVRJd01ERXdNRFk9" target="_blank">厨房大家电</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNRGdqTVRFd01ERXdNalFqTVRFd01ERXdNaklqTVRFd01ERXdNelFqTVRFd01ERXdNemM9" target="_blank"> 饮品料理</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNRGtqTVRFd01ERXdNVEFqTVRFd01ERXdNVElqTVRFd01ERXdNVFFqTVRFd01ERXdNallqTVRFd01ERXdNakFqTVRFd01ERXdNekVqTVRFd01ERXdNeklqTVRFd01ERXdNek1
+
+qTVRFd01ERXdNelVqTVRFd01ERXdNems9" target="_blank"> 中式厨电</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNVGNqTVRFd01ERXdNak1qTVRJd01ERXdNRE1qTVRFd01ERXdNVGs9" target="_blank">西式厨电</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNVE1qTVRFd01ERXdNemdqTVRFd01ERXdNakVqTVRJd01EVXdNREVqTVRFd01ERXdNRGM9" target="_blank"> 厨房小家电</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_jiadian.htm#floor5" target="_blank">个护健康</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRjd01ERXdNREVqTVRjd01ERXdNRElqTVRjd01ERXdNRGdqTVRjd01ERXdNRE1qTVRjd01ERXdNRFFqTVRjd01ERXdNRFU9" target="_blank">健康检测仪器 </a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRFd01ERXdNamtqTVRFd01ERXdNVFVqTVRjd01ERXdNRGNqTVRjd01ERXdNRGtqTVRjd01ESXdNREVqTVRjd01ESXdNREk9" target="_blank">个人护理电器 </a></dd>
+					</dl>
+				</div>
+			</div>
+			<!--弹出子类广告位--><!--<div class="submenu_pop_ad">
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                            </div>--></div>
+	</li>
+	<!-- <li class="category_item4 plug_show_hd">
+                        <div class="category_link"><i class="icon iconfont">&#xe602;</i><a 
+
+href="#">办公用品</a></div>
+                        <div class="category_detail_con plug_show_bd" style="display:none;">
+                            <div class="category_seclist_item">
+                                <h1><a href="#" onclick="searchOnclick('办公本册')">办公本册</a></h1>
+                                <div class="category_detail_left">
+                                    <dl>
+                                        <a href="#" onclick="searchOnclick('笔记本')">笔记本</a>
+                                        <a href="#" onclick="searchOnclick('记事本')">记事本</a>
+                                        <a href="#" onclick="searchOnclick('名片册')">名片册</a>
+                                        <a href="#" onclick="searchOnclick('通讯录')">通讯录</a>
+                                        <a href="#" onclick="searchOnclick('效率手册')">效率手册</a>
+                                        <a href="#" onclick="searchOnclick('资料册')">资料册</a>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="category_seclist_item">
+                                <h1><a href="#" onclick="searchOnclick('办公笔类')">>办公笔类</a></h1>
+                                <div class="category_detail_left">
+                                    <dl>
+                                        <a href="#" onclick="searchOnclick('白板笔')">白板笔</a>
+                                           <a href="#" onclick="searchOnclick('粉笔')">粉笔</a>
+                                        <a href="#" onclick="searchOnclick('钢笔')">钢笔</a>
+                                        <a href="#" onclick="searchOnclick('记号笔')">记号笔</a>
+                                        <a href="#" onclick="searchOnclick('毛笔')">毛笔</a>
+                                        <a href="#" onclick="searchOnclick('铅笔')">铅笔</a>
+                                        <a href="#" onclick="searchOnclick('签字笔')">签字笔</a>
+                                        <a href="#" onclick="searchOnclick('荧光笔')">荧光笔</a>
+                                        <a href="#" onclick="searchOnclick('中性笔')">中性笔</a>
+                                        <a href="#" onclick="searchOnclick('中性笔芯')">中性笔芯</a>
+                                        <a href="#" onclick="searchOnclick('自动铅笔')">自动铅笔</a>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="category_seclist_item">
+                                <h1><a href="#" onclick="searchOnclick('办公耗材')">办公耗材</a></h1>
+                                <div class="category_detail_left">
+                                    <dl>
+                                        <a href="#" class="recom" onclick="searchOnclick('KT板')">KT板</a>
+                                        <a href="#" class="recom" onclick="searchOnclick('代用墨盒')">代用墨盒</a>
+                                        <a href="#" onclick="searchOnclick('代用色带架')">代用色带架</a>
+                                        <a href="#" onclick="searchOnclick('代用硒鼓')">代用硒鼓</a>
+                                        <a href="#" onclick="searchOnclick('定影膜')">定影膜</a>
+                                        <a href="#" onclick="searchOnclick('墨水')">墨水</a>
+                                        <a href="#" onclick="searchOnclick('原装墨盒')">原装墨盒</a>
+                                        <a href="#" onclick="searchOnclick('原装色带')">原装色带</a>
+                                        <a href="#" onclick="searchOnclick('原装色带架')">原装色带架</a>
+                                        <a href="#" onclick="searchOnclick('原装碳粉')">原装碳粉</a>
+                                        <a href="#" onclick="searchOnclick('原装硒鼓')">原装硒鼓</a>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="category_seclist_item">
+                              <h1><a href="#" onclick="searchOnclick('办公设备')">办公设备</a></h1>
+                                <div class="category_detail_left">
+                                    <dl>
+                                        <a href="#" class="recom" onclick="searchOnclick('标牌机')">标牌机</a>
+                                        <a href="#" class="recom" onclick="searchOnclick('标签机')">标签机</a>
+                                        <a href="#" onclick="searchOnclick('传真机')">传真机</a>
+                                        <a href="#" onclick="searchOnclick('打印机')">打印机</a>
+                                        <a href="#" onclick="searchOnclick('电话机')">电话机</a>
+                                        <a href="#" onclick="searchOnclick('对讲机')">对讲机</a>
+                                        <a href="#" onclick="searchOnclick('多功能一体机')">多功能一体机</a>
+                                        <a href="#" onclick="searchOnclick('复印机')">复印机</a>
+                                        <a href="#" onclick="searchOnclick('绘图仪')">绘图仪</a>
+                                        <a href="#" onclick="searchOnclick('计算器')">计算器</a>
+                                        <a href="#" onclick="searchOnclick('考勤机')">考勤机</a>
+                                        <a href="#" onclick="searchOnclick('满意度评价器')">满意度评价器</a>
+                                        <a href="#" onclick="searchOnclick('排队机')">排队机</a>
+                                        <a href="#" onclick="searchOnclick('切纸机')">切纸机</a>
+                                        <a href="#" onclick="searchOnclick('扫描仪')">扫描仪</a>
+                                        <a href="#" onclick="searchOnclick('时钟')">时钟</a>
+                                        <a href="#" onclick="searchOnclick('收银机')">收银机</a>
+                                        <a href="#" onclick="searchOnclick('手机信号屏蔽器')">手机信号屏蔽器</a>
+                                        <a href="#" onclick="searchOnclick('数码设备')">数码设备</a>
+                                        <a href="#" onclick="searchOnclick('速印机')">速印机</a>
+                                        <a href="#" onclick="searchOnclick('塑封机')">塑封机</a>
+                                        <a href="#" onclick="searchOnclick('碎纸机')">碎纸机</a>
+                                        <a href="#" onclick="searchOnclick('投影幕布')">投影幕布</a>
+                                        <a href="#" onclick="searchOnclick('投影仪')">投影仪</a>
+                                    </dl>
+                                </div>
+                            </div>
+                             <div class="category_seclist_item">
+                              <h1><a href="#" onclick="searchOnclick('办公纸品')">办公纸品</a></h1>
+                                <div class="category_detail_left">
+                                    <dl>
+                                        <a href="#" class="recom" onclick="searchOnclick('包装纸')">包装纸</a>
+                                        <a href="#" class="recom" onclick="searchOnclick('便条纸')">便条纸</a>
+                                        <a href="#" onclick="searchOnclick('标签/胶贴')">标签/胶贴</a>
+                                        <a href="#" onclick="searchOnclick('彩机纸')">彩机纸</a>
+                                        <a href="#" onclick="searchOnclick('彩喷纸')">彩喷纸</a>
+                                        <a href="#" onclick="searchOnclick('传真纸')">传真纸</a>
+                                        <a href="#" onclick="searchOnclick('打印纸')">打印纸</a>
+                                        <a href="#" onclick="searchOnclick('复印纸')">复印纸</a>
+                                        <a href="#" onclick="searchOnclick('刚估纸')">刚古纸</a>
+                                        <a href="#" onclick="searchOnclick('告示贴')">告示贴</a>
+                                        <a href="#" onclick="searchOnclick('海报纸')">海报纸</a>
+                                        <a href="#" onclick="searchOnclick('卡纸')">卡纸</a>
+                                        <a href="#" onclick="searchOnclick('考勤卡')">考勤卡</a>
+                                        <a href="#" onclick="searchOnclick('拷贝纸')">拷贝纸</a>
+                                        <a href="#" onclick="searchOnclick('蜡纸/版纸')">蜡纸/版纸</a>
+                                        <a href="#" onclick="searchOnclick('皮纹纸/布纹纸')">皮纹纸/布纹纸</a>
+                                    </dl>
+                                </div>
+                            </div>
+                            弹出子类广告位
+                            <div class="submenu_pop_ad">
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                            </div>
+                        </div>
+                        
+                    </li> -->
+	<li class="category_item5 plug_show_hd">
+		<div class="category_link">
+			<i class="icon iconfont" style="margin-left: 0px;">?</i> <a href="http://www.esgcc.com.cn/channel/channel_shu.htm" target="_blank">电力图书 </a></div>
+		<div class="category_detail_con plug_show_bd" style="display: none;">
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_shu.htm#floor1" target="_blank">电力技术</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNREU9" target="_blank">电力安全</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNREk9" target="_blank">特高压</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNRE09" target="_blank">智能电网</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNRFE9" target="_blank">电力系统</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNVFU9" target="_blank">自动化</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNVFk9" target="_blank">单片机</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNRFk9" target="_blank">输变电</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNRGM9" target="_blank">供配电</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNRGc9" target="_blank">电力营销</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNRGs9" target="_blank">用电</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNVEE9" target="_blank">电机与电器</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNVEU9" target="_blank">调度与通信</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNVEk9" target="_blank">继电保护</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNVE09" target="_blank">送变电施工</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ERXdNVFE9" target="_blank">农电</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_shu.htm#floor2" target="_blank">火力发电</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNREU9" target="_blank">燃料及燃料系统</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNREk9" target="_blank">锅炉及其 辅助系统</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNRE09" target="_blank">汽轮机及其辅助系统</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNRFE9" target="_blank">发电机及其电力系统</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNRFU9" target="_blank">热力系统与冷却系统</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNRFk9" target="_blank">热工与控制</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNRGM9" target="_blank">电厂化学与技术监督</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNRGc9" target="_blank">节能与环保</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01ESXdNRGs9" target="_blank">火电施工及其他</a></dd>
+					</dl>
+				</div>
+			</div>
+			<!--<div class="category_seclist_item">
+                              <h1><a href="#" onclick="searchOnclick('水力发电')">水力发电</a></h1>
+                                <div class="category_detail_left">
+                                    <dl>
+                                        <a href="#" onclick="searchOnclick('水电设备及系统')">水电设备及系统</a>
+                                        <a href="#" onclick="searchOnclick('水电施工')">水电施工</a>
+                                    </dl>
+                                </div>
+                            </div>-->
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_shu.htm#floor4" target="_blank">其他发电方式</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EUXdNREk9" target="_blank">风力发电</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EUXdNREVqTWpFd01EUXdNRE1qTWpFd01EUXdNRFE9" target="_blank">其他发电方式</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_shu.htm#floor5" target="_blank">电力标准及规范</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EVXdNREU9" target="_blank">电力行业标准</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EVXdNREk9" target="_blank">国家能源局标准</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EVXdNRE09" target="_blank">国家电网公司标准</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EVXdNRFE9" target="_blank">南方电网公司标准</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_shu.htm#floor6" target="_blank">综合</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EWXdNREU9" target="_blank">能源与环保</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EWXdNREk9" target="_blank">电力经济与管 理</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EWXdNRE09" target="_blank">电力经营与管理</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EWXdNRFE9" target="_blank">概预算定额</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EWXdNRFU9" target="_blank">电力法律法规</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EWXdNRFk9" target="_blank">电力考试考级</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TWpFd01EWXdNRGM9" target="_blank">其他电力图书</a></dd>
+					</dl>
+				</div>
+			</div>
+			<!--弹出子类广告位--><!--<div class="submenu_pop_ad">
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                            </div>--></div>
+	</li>
+	<li class="category_item6 plug_show_hd">
+		<div class="category_link">
+			<i class="icon iconfont" style="margin-left: 0px;">?</i> <a href="http://www.esgcc.com.cn/channel/channel_diangong.htm" target="_blank">家装电工</a></div>
+		<div class="category_detail_con plug_show_bd" style="display: none;">
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_diangong.htm#floor1" target="_blank">节能灯具</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRVd01ERXdNREU9" target="_blank">节能灯具</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRVd01ERXdNRE1qTVRVd01ERXdNRFFqTVRVd01ERXdNRFVqTVRVd01ERXdNRFlqTVRVd01ERXdNRGNqTVRVd01ERXdNRGc9" target="_blank">其他灯具</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_diangong.htm#floor2" target="_blank">电工配件</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRRd01ERXdNRElqTVRRd01ERXdNRE1qTVRRd01ERXdNRGNqTVRVd01ERXdNREk9" target="_blank">开关插座</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRRd01ERXdNREU9" target="_blank">插线板/插排</a></dd>
+					</dl>
+				</div>
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_diangong.htm#floor3" target="_blank">安防、控制设备</a></h1>
+				<div class="category_detail_left">
+					<dl>
+						<dd>
+							<a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q=SUE9PQ==&amp;allCatId=TVRZd01ERXdNREU9" target="_blank">网络监控摄像头</a> <a href="http://search.esgcc.com.cn/managerSearch/showSearchPage?
+
+q=SUE9PQ==&amp;allCatId=TVRZd01ERXdNRElqTVRZd01ERXdNVEVqTVRZd01ERXdNRFFqTVRZd01ERXdNRFVqTVRZd01ERXdNRFlqTVRZd01ERXdNRGNqTVRZd01ERXdNRGdqTVRZd01ERXdNRGtqTVRZd01ERXdNVEE
+
+9" target="_blank">安防设备</a></dd>
+					</dl>
+				</div>
+			</div>
+			<!--弹出子类广告位--><!--<div class="submenu_pop_ad">
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                            </div>--></div>
+	</li>
+<li class="category_item7 plug_show_hd">
+		<div class="category_link">
+			<i class="icon iconfont" style="margin-left: 0px;">?</i> <a href="http://www.esgcc.com.cn/channel/channel_distributedGeneration.htm" target="_blank">分布式电源</a></div>
+		<div class="category_detail_con plug_show_bd" style="display: none;">
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_distributedGeneration.htm#floor2" target="_blank">光伏应用产品</a></h1>
+				
+			</div>
+			<div class="category_seclist_item">
+				<h1>
+					<a href="http://www.esgcc.com.cn/channel/channel_distributedGeneration.htm#floor3" target="_blank">光伏解决方案</a></h1>
+				
+			</div>
+			
+			<!--弹出子类广告位--><!--<div class="submenu_pop_ad">
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                               <a href="#" title="">
+                                  <img src="#SiteUrl('site.static.url')/static/images/img/f2_right_logo4.png">
+                               </a>
+                            </div>--></div>
+	</li>
+</ul>
+				</ul>
+
+			</div>
+			<ul class="nav_list fl">
+				<li class="nav_link_selected">
+					<a target="_blank" href="http://www.esgcc.com.cn">首页</a>
+				</li>
+				<li>
+					<a  target="_blank" href="http://www.esgcc.com.cn/smartHome/showSmartHome/index.htm">智能家居馆</a>
+				</li>
+				<li>
+					<a id="pilotCartName" target="_blank" href="http://www.esgcc.com.cn/electrocar/home/index.htm">电动车馆</a>
+				</li>
+				<li>
+					<a id="pilotCartName" target="_blank" href="http://www.esgcc.com.cn/channel/channel_distributedGeneration.htm">分布式电源</a>
+				</li>
+				<li>
+					<a  target="_blank" href="http://travel.esgcc.com.cn/travelShowIndex/travelIndex.htm" >商旅票务</a>
+				</li>
+				<li>
+						<a id="pilotExerciseName" target="_blank" href="http://sales.esgcc.com.cn/seckill/index.htm" >促销专区</a>
+				</li>
+				
+				<li class="power_rate_link"> 
+					<a href="javascript:void(0);" class="payEle" >缴纳电费</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	<script>
+		$(function(){
+			var url = $("#hideSearchArea").val();
+			
+			$("#intellectualName").attr("href", $("#hideSearchArea").val()+ "?q="  + encodeURI(encodeURI("智能家居")));
+			//$("#pilotCartName").attr("href", $("#hideSearchArea").val()+ "?q="  + encodeURI(encodeURI("车"))); 
+			//$("#pilotExerciseName").attr("href",$("#hideSearchArea").val()+ "?q="  + encodeURI(encodeURI("活动")));
+		});
+		function searchOnclick(_param){ 
+			//location.href="http://search.esgcc.com.cn/managerSearch/showSearchPage?q="+doubleBase64Encode($.trim(_param));	
+			window.open($("#hideSearchArea").val()+ "?q="+doubleBase64Encode($.trim(_param)));	
+		}
+		//双重base64编码
+		function doubleBase64Encode(ta){
+			return Base64Utils.base64Encode(Base64Utils.base64Encode(ta));
+		}
+	</script>
+	<!-- 站点位置 -->
+	<div class="graybar_wrap">
+		<div class="graybar">
+			<span>全部分类</span>
+			&gt;
+			<a href="#" onclick="goSearchPage(this)">电动车</a>
+			&gt;
+			<a href="#" onclick="goSearchPage(this)">电动汽车/服务</a>
+			&gt;
+			<a href="#" onclick="goSearchPage(this)">纯电动汽车</a>
+			&gt;
+			<span class="colorOrange">吉利知豆D1 城市微行纯电动车 购车订金</span>
+		</div>
+	</div>
+
+	<!-- 商品详情 -->
+	<div class="layout mb20">
+		<div class="product_top_info p_info">
+			<!-- 左侧 -->
+			<div class="product_top_l">
+				<div id="preview" >
+					<div class="jqzoom" id="spec-n1" style="display: table-cell;text-align: center;vertical-align: middle;" >
+					<div style="max-width:380px;max-height:380px;">
+						<img alt="吉利知豆D1 城市微行纯电动车 购车订金" id="skuImg" style="max-width:380px;max-height:380px" src="http://images.esgcc.com.cn/images/00169749/0000074696AA470F4D121BA69A67C07688BE720B6A.jpg?rs=380_380" jqimg="http://images.esgcc.com.cn/images/00169749/0000074696AA470F4D121BA69A67C07688BE720B6A.jpg?rs=380_380" />
+						<input type="hidden" id="prodImg" value="http://images.esgcc.com.cn/images/00169749/0000074696AA470F4D121BA69A67C07688BE720B6A.jpg?rs=380_380"/>
+					</div>
+					</div>
+					<div id="spec-n5">
+						<div class="control" id="spec-left"></div>
+						<div id="spec-list">
+							<ul class="list-h" id="list_h" style="margin-left: 12px;">
+																					 								<li style='margin-right:8px; float:left;'>
+								<div style='border:1px solid #ccc;padding:2px;width: 50px;height: 50px;text-align: center;vertical-align: middle;display: table-cell;float: none;'>
+								<div style='max-width:50px;max-height:50px'>
+									<img alt="吉利知豆D1 城市微行纯电动车 购车订金" id='pro_img0' style="border:0px ;max-width:50px;max-height:50px;width:auto;height:auto;" src="http://images.esgcc.com.cn/images/00169749/0000074696AA470F4D121BA69A67C07688BE720B6A.jpg?rs=50_50" />
+									</div>
+								</div>
+								</li>
+																					</ul>
+						</div>
+						<div class="control" id="spec-right"></div>
+					</div>
+				</div>
+				<div class="share">
+					<a href="javascript:void(0);" id="favorite_product" onclick="addFavoriteProduct('','046FCF4DF2A0B7E9','0000074696','http://user.esgcc.com.cn/favoriteProduct/addFavoriteProduct')" class="ico_black_border">收藏</a>
+					<a href="javascript:void(0);" class="btn_compare" id="compare_productId"></a>
+				</div>
+				
+				<div class="shareBox">
+					<span style="float:left;margin-top: 5px;">分享到：</span>
+					    <!-- Baidu Button BEGIN -->
+					    <div class="bdsharebuttonbox">
+					    	<a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+					    	<a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+					    	<a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+					    	<a href="#" class="bds_kaixin001" data-cmd="kaixin001" title="分享到开心网"></a>
+					    	<a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+					    </div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"1","bdMiniList":[],"bdPic":$('#skuImg').attr('src'),"bdStyle":"0","bdSize":"16"},"share":{},"image":null,"selectShare":null};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+  <!--  <div class="bdsharebuttonbox" data-tag="share_1">
+	<a class="bds_qzone" data-cmd="qzone" href="#"></a>
+	<a class="bds_tsina" data-cmd="tsina"></a>
+	<a class="bds_baidu" data-cmd="baidu"></a>
+	<a class="bds_renren" data-cmd="renren"></a>
+	<a class="bds_tqq" data-cmd="tqq"></a>
+	<a class="bds_more" data-cmd="more">更多</a>
+	<a class="bds_count" data-cmd="count"></a>
+</div>
+<script>
+	window._bd_share_config = {
+		common : {
+			bdDesc : "@国网商城",	
+			bdPic : $('#spec-list .list-h').find('img').eq(0).attr('src')
+		},
+		share : [{
+			"bdSize" : 12
+		}],
+		
+		image : [{
+			viewType : 'list',
+			viewPos : 'top',
+			viewColor : 'black',
+			viewSize : '12',
+			viewList : ['qzone','tsina','huaban','tqq','renren']
+		}],
+		selectShare : [{
+			"bdselectMiniList" : ['qzone','tqq','kaixin001','bdxc','tqf']
+		}]
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script> -->
+<!-- Baidu Button END -->	
+					
+				</div>
+				
+			</div>
+			<!-- 中部 -->
+			<div class="product_top_c ">
+				<div class="name">
+					<input type="hidden" id="scroll" value="${map.get('scroll')}" />
+					<h1 id="prodName" >吉利知豆D1 城市微行纯电动车 购车订金</h1><a class="report" href="#" onclick="reportThisPro()" style="color:#999;">举报此商品</a>
+					<h3 id="prodAdword" style="display:none" class="name"></h3>
+					<input type="hidden" id="prodId" value="0000074696" />
+					<input type="hidden" id="productId_hide" value="0000074696" />
+					<input type="hidden" id="productId_init" value="http://detail.esgcc.com.cn/showDetail/getSkuInfo"/>
+					<input type="hidden" id="prod_status" value='05'>
+				</div>
+				<div class="pro_info_list clearfix">
+					<ul class="summary">
+						<li>
+							<div class="dt">商品编号：</div>
+							<div class="dd">0000074696</div>
+						</li>
+						<li>
+							<div class="dt">指 导 价：</div>
+							<div class="dd"> 
+							42800.00~42800.00
+							</div>
+						</li>
+						<li>
+							<div class="dt">订&#x3000;&#x3000;金：</div>
+							<div class="dd">
+								<strong class="p_price">￥</strong>
+								<input type="hidden" id="prodPrice" value="199.00"/>
+								<input type="hidden" id="skuPrice" value="" />
+								<!--<span class="notice_downp" value=""></span> -->
+								<input type="hidden" id="prodOriginPrice" value="42800.00"/>							
+							</div>
+						</li>
+						<li>
+						<div class="dt">商品评分：</div>
+						<div class="dd">
+								<span id="valuation_star" class=""></span>
+								<span class="comment"><a id="valuation_num" href="javascript:void(0);" onclick="theScrollMoveToEvo('#comment')">(已有评价)</a></span>
+						</div>
+						</li>
+						<li>
+																					<div class="dt"></div>
+							<div class="dd">
+																					</div>
+						</li>
+					</ul>
+					
+				
+					
+					<ul class="choose" id="chooseParam" >
+ 					 						  															<li class="p_spec" id="standard" >
+										 									<div class="dt" id="key" value="车体颜色">车体颜色：</div>
+	 									 								<div class="dd"> 
+	 										 								<div class="item" name="pro" id="0" onclick="select(this,'0000074696','$propConfig.getContextProperty($siteKey)/showDetail/productStorage')">
+		 									<b></b> 
+		 									<a value="红">红</a> 
+		 								</div> 
+	 										 								<div class="item" name="pro" id="1" onclick="select(this,'0000074696','$propConfig.getContextProperty($siteKey)/showDetail/productStorage')">
+		 									<b></b> 
+		 									<a value="黄">黄</a> 
+		 								</div> 
+	 										 								<div class="item" name="pro" id="2" onclick="select(this,'0000074696','$propConfig.getContextProperty($siteKey)/showDetail/productStorage')">
+		 									<b></b> 
+		 									<a value="蓝">蓝</a> 
+		 								</div> 
+	 										 								<div class="item" name="pro" id="3" onclick="select(this,'0000074696','$propConfig.getContextProperty($siteKey)/showDetail/productStorage')">
+		 									<b></b> 
+		 									<a value="白">白</a> 
+		 								</div> 
+	 									 								</div> 
+								</li>
+ 							 						 												
+												
+							
+						<li class="choose_amount">
+							<div class="dt">数&#x3000;&#x3000;量：</div>
+							<div class="dd">
+							
+								<div class="wrap-input" style="float: left;margin: 0">
+									<input type="button" class="btn-reduce"  onclick="reduceNum(this)" style="cursor:not-allowed" />
+									<input type="button" class="btn-add" onclick="increaseNum(this)" />
+									<input id="finalNum" value="1" onkeyup="numKeyUp(this)" skuid="0000074696" class="text" onchange="numChange(this)" />
+									<input id="sukId_hide" type="hidden" value="" />
+									<input id="skuProContent" type="hidden" value="">
+								</div>
+								
+										<div class="store-prompt">
+											<strong id="storage" val="">库存件</strong>
+										</div>
+									
+							</div>
+						</li>
+						<!-- <li>
+							<div class="dt">起始地</div>
+							<div class="dd">
+								${map.get("address")}
+							</div>
+						</li> -->
+						<li class="summary_stock">
+							<div class="dt">运&#x3000;&#x3000;费：</div>
+							 <div class="dd">
+                                                        		 <b class="freePay">卖家包邮</b>
+						    	<div class="send_to" style="display: none;">
+							                            <b id="adress">&#12288;至</b>
+					<select name="province" id="province" onchange="mergeCity(this,'http://detail.esgcc.com.cn/showDetail/mergeCity')">
+						<option value="0">请选择省份</option>
+																		<!-- 								<option value="$EcAddress.id">$EcAddress.name</option> -->
+																		</select>
+					<select name="city" id="city" onchange="getFreightAjax(this,'0000074696')">
+						<option value="">请选择区县</option>
+											</select>
+					<input type="hidden" id="freight" value="" />
+					<span id="freightDiv" ></span>
+					<span id="expressAdd" value="0"></span><span id="emsAdd" value="0"></span><span id="pingyouAdd" value="0"></span>
+				</div>
+                                 
+								<!-- <div class="store-prompt">
+									<strong id="storage" val="1"></strong>
+								</div> -->
+							</div>  
+						</li>
+						<li id="expires_time0" style="display:none">
+						<div class="dt">有 效 期：</div>
+						<div class="dd">
+								<span  id="expires_time1">预订成功后<span style='font-weight:bold;'></span>天内有效</span>
+								<input type="hidden" id="expires_time2" >
+						</div>
+						</li>
+						<li>
+					</ul>
+					
+					<ul class="service">
+						<li class="choose_btns">
+							<div class="dt">&#12288;</div>
+							<div class="dd" id="normal_button" >
+																																<!-- <div class="choose_btn_append">
+								a标签自定义unable属性，用于在ajax更新商品属性时禁用加入购物车和立即购买功能 ，以前版本设置其值为true为默认禁用状态，后期需求改动，由于默认不选中sku属性，所以这里需要将其值改为false，即默认可用状态
+								<a id="add_cart" unable="false" class="btn btn-sgGreen btn_append" href="javascript:;" onclick="if(!isdis(this))appendCart('0000074696','19002001','吉利知豆D1 城市微行纯电动车 购车订金','199.00','http://images.esgcc.com.cn/images/00169749/0000074696AA470F4D121BA69A67C07688BE720B6A.jpg','046FCF4DF2A0B7E9','http://cart.esgcc.com.cn/showCart/addCart', '00169749')" >加入购物车</a>
+								<input type="hidden" id="addCartUrl" value="http://detail.esgcc.com.cn/products/addOneProToCart" />
+								</div> -->
+								<div class="choose_btn_buy" >
+									<a id="immediately_buy" unable="false" class="btn btn-sgGreen btn_buy" href="javascript:;" onclick="if(!isdis(this))buyNow('0000074696','19002001','吉利知豆D1 城市微行纯电动车 购车订金','199.00','http://images.esgcc.com.cn/images/00169749/0000074696AA470F4D121BA69A67C07688BE720B6A.jpg','046FCF4DF2A0B7E9','http://cart.esgcc.com.cn/fillinOrder/pre_at_once_buy','知豆电动汽车官方旗舰店', '00169749')" >立即订购</a>
+								</div>
+								<!-- 操作类型：用于区别加入购物车和立即购买，在点击操作的时候对这个hidden进行复制 -->
+								<input type="hidden" id="opType" />
+							</div>
+								
+							<!-- 没有库存时按钮不可点击且变灰 -->	
+							 <div class="dd" id="untouch_gray" style="display:none">
+							 	<!-- 
+								<div class="choose_btn_append" >
+									<a href="javascript:;" class="btn_append disable" style="cursor:default ">加入购物车</a>
+								</div>
+								<div class="choose_btn_buy" >
+									<a href="javascript:;" class="btn_buy disable" style="cursor:default ">立即购买</a>
+								</div>
+								-->
+								<div id="out_of_stock" class="choose_btn_buy ml10" >
+									<a href="javascript:;" class="btn btn-sgGray btn_noGoods" style="cursor:default ">商品已下架</a>
+								</div>
+							</div> 
+						</li>
+					</ul>
+				</div>
+			</div>
+	
+			<!-- 右侧 -->
+			<div class="product_top_r" >
+				<ul class="shop_r_info">
+				<li class="shop_name">
+													<p title="知豆电动汽车官方旗舰店">店铺名称：知豆电动汽车官...</p>
+										<input type="hidden" value="http://merchant.esgcc.com.cn" id="merchantUrl"/>
+						<input type="hidden" value="046FCF4DF2A0B7E9" id="storeId"/>
+						<input type="hidden" value="zhidou" id="vendorName"/>
+						<a href="javascript:void(0)" tslan="zhidou" class="onlinechat small_cs_ico_on"><b></b>咨询商家</a>
+						<span style="display:none">在线客服：</span>
+						<div id="waiter" class="orderTopHead" style="display:none"></div>
+					</li>
+					<li class="sevice_score">
+						<p>
+							店铺动态评分
+						</p>
+					</li>
+					<li class="score_more">
+						<!-- <p>店铺评价</p> -->
+						<p>
+							商户态度评分：
+							<span class="score_num" id="evalSellerService">5</span>分
+						</p>
+						<p>
+							发货速度评分：
+							<span class="score_num" id="evalDeliver">5</span>分
+						</p>
+						<p>
+							商品描述评分：
+							<span class="score_num" id="evalDesc">5</span>分
+						</p>
+						<!-- <p>
+							配送人员态度评分：
+							<span class="score_num" id="evalLogistics"> 0</span>分
+						</p> -->
+					</li>
+					<li class="shop_service">
+						<p id="shop_oper">
+							<!-- <a href="" class="ico_black_border online"><b></b>在线客服</a> -->
+							<!-- <a href="http://shops.esgcc.com.cn/shop/index.jhtml?shopId=046FCF4DF2A0B7E9" class="ico_black_border">进入店铺</a> -->
+							<a target="_blank" href='http://shops.esgcc.com.cn/shop/046FCF4DF2A0B7E9/index.htm' class="ico_black_border">进入店铺</a>
+							<a href="javascript:void(0);" onclick="collectStore('','046FCF4DF2A0B7E9','http://user.esgcc.com.cn/favoriteStore/addFavoriteStore')" class="ico_black_border">收藏店铺</a>
+						</p>
+						<p class="tel">客服电话：0574-65250990</p>
+						<p class="site">所在地：浙江 宁波</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- --------------------------------同类商品--------------------------------------- -->
+		
+	<div class="layout">
+		<div id="toppanel" class="product_toppanel">
+        	<div class="comparebar">
+            	<span id="side-cmp"><a id="compare_holder" class="compareHolder" href="javascript:void(0);">对比栏</a></span>
+            </div>
+        	<div id="sidepanel" style="display:none;">
+                <a class="gototop"><b></b>返回顶部</a>
+            </div>
+        </div>
+	  </div>
+	<!-- 内容中部 -->
+	<div class="layout">
+		<!-- 左侧 -->
+	<div class="left_wrap">
+			<!-- 浏览了该商品的用户最终购买了 -->
+				<div id='B3D8CC66-31F8-4DB8-ADA2-AEF8E93083B3'><script> $(document).ready(function(){ $('#B3D8CC66-31F8-4DB8-ADA2-AEF8E93083B3').load("/httpProxyServlet?url=http%3A%2F%2Fanalysis.esgcc.com.cn%2Fanalysis%2FseeFinallyBuyAnalysis%3FproductId%3D0000074696%26prodCatId%3D19002001"); });</script></div>
+			<!-- 排行榜 -->
+				<div id='677F9C5D-32AC-458B-9D6D-090FF5B72214'><script> $(document).ready(function(){ $('#677F9C5D-32AC-458B-9D6D-090FF5B72214').load("/httpProxyServlet?url=http%3A%2F%2Fanalysis.esgcc.com.cn%2Fanalysis%2FsaleChartsAnalysis%3FproductId%3D0000074696"); });</script></div>
+			<!-- 购买了还购买了 -->
+			<div id='C6ED71A7-733E-43D5-B982-2B5836C4340C'><script> $(document).ready(function(){ $('#C6ED71A7-733E-43D5-B982-2B5836C4340C').load("/httpProxyServlet?url=http%3A%2F%2Fanalysis.esgcc.com.cn%2Fanalysis%2FbuyAlsoBuyAnalysis%3FproductId%3D0000074696%26prodCatId%3D19002001"); });</script></div>
+			<!-- 历史浏览 -->
+				<div id='2C16D50A-B648-4961-ADAF-056C073D92A8'><script> $(document).ready(function(){ $('#2C16D50A-B648-4961-ADAF-056C073D92A8').load("/httpProxyServlet?url=http%3A%2F%2Fanalysis.esgcc.com.cn%2Fanalysis%2FthisUserShopingHistory%3FproductId%3D0000074696%26prodCatId%3D19002001%26userId%3D"); });</script></div>
+			<!-- 浏览了该商品的用户还浏览了 -->
+				<div id='69FCE533-07A6-4E44-A2E9-B5906B1026D3'><script> $(document).ready(function(){ $('#69FCE533-07A6-4E44-A2E9-B5906B1026D3').load("/httpProxyServlet?url=http%3A%2F%2Fanalysis.esgcc.com.cn%2Fanalysis%2FseeAlsoSeeAnalysis%3FproductId%3D0000074696%26prodCatId%3D19002001"); });</script></div>
+	</div>
+
+		
+		<!-- 右侧 -->
+		<div class="right_wrap">
+			<div class="product_detail" id="product-detail">
+				<div class="hd float-nav-wrap" id="comment">
+					<ul class="tab_plug_click p_detail_tab mt fixedLayout" style="background: #ddd;">
+
+						<li class="p_con_detail">
+							<a href="#p_con_detail" class="selected">
+								商品详情
+								<b></b>
+							</a>
+						</li>
+						<li class="p_con_attr" >
+							<a href="#p_con_attr" onclick="loadEvolutionOrSalesRecordByAjax('noChangePage','p_con_attr','http://detail.esgcc.com.cn/products/getOneProdAttribute?prodid=0000074696')">
+								规格参数
+								<b></b>
+							</a>
+						</li>
+						<li class="p_con_comm" >
+							<a href="#p_con_comm" onclick="loadEvolutionOrSalesRecordByAjax('noChangePage','comm_all','http://detail.esgcc.com.cn/products/loadGoodsCommentsBuyAjax/*?productId=0000074696&start=0&rows=10')">
+								商品评价
+								<i id="evaConut1"></i>
+								<b></b>
+							</a>
+						</li>
+
+						<li class="p_con_sell" >
+							<a href="#p_con_sell" onclick="loadEvolutionOrSalesRecordByAjax('noChangePage','addSalerRecordDivId','http://detail.esgcc.com.cn/products/loadSalesRecordBuyAjax?productId=0000074696&start=0&rows=20')">
+								月销售记录
+								<i id="saluCount"></i>
+								<b></b>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="bd">
+					<div id="p_con_detail">
+					<!-- Ajax导入详情 -->
+					</div>
+					<div id="p_con_attr">
+					<!-- Ajax规格参数-->
+					</div>
+					<div id="p_con_comm">
+					<!-- 商品评价 -->
+					<div class="p_comment">
+							<a name="comment" class="name_comment">&nbsp;</a>
+							<div class="rate">
+								<span id="goodEvolutionProportion1" style="font-size: 24px;
+line-height: 26px;"></span><span>%</span>
+							</div>
+							<div class="percent">
+								<dl>
+									<dt>
+										好评
+										<span id="goodEvolutionProportion2"></span>%
+									</dt>
+									<dd>
+										<div id="goodEvolutionProportion3" ></div>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										中评
+										<span id="nomarEvolutionProportion1"></span>%
+									</dt>
+									<dd class="d1">
+										<div id="nomarEvolutionProportion2" ></div>
+									</dd>
+								</dl>
+								<dl>
+									<dt>
+										差评
+										<span id="badEvolutionProportion1"></span>%
+									</dt>
+									<dd class="d1">
+										<div id="badEvolutionProportion2" ></div>
+									</dd>
+								</dl>
+							</div>
+					</div>
+					<!-- 评价 -->
+					<div class="comments_list" id="comments_list">
+							<div class="hd">
+								<ul class="tab_plug_click p_comm_tab">
+									<li>
+										<a class="selected" href="#comm_all">
+											全部(<span id="evaConut2"></span>)
+										</a>
+									</li>
+									<li>
+										<a href="#comm_good" onclick="loadEvolutionOrSalesRecordByAjax('noChangePage','comm_good','http://detail.esgcc.com.cn/products/loadGoodsCommentsBuyAjax/5?productId=0000074696&start=0&rows=10')">
+											好评(<span id="goodEvolutionProportion4"></span>)
+										</a>
+									</li>
+									<li>
+										<a href="#comm_normal" onclick="loadEvolutionOrSalesRecordByAjax('noChangePage','comm_normal','http://detail.esgcc.com.cn/products/loadGoodsCommentsBuyAjax/4?productId=0000074696&start=0&rows=10')">
+											中评(<span id="nomarEvolutionProportion3"></span>)
+										</a>
+									</li>
+									<li>
+										<a href="#comm_bad" onclick="loadEvolutionOrSalesRecordByAjax('noChangePage','comm_bad','http://detail.esgcc.com.cn/products/loadGoodsCommentsBuyAjax/3?productId=0000074696&start=0&rows=10')">
+											差评(<span id="badEvolutionProportion3"></span>)
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="bd">
+								<div id="comm_all">
+								<!-- 全部平评论 -->	
+								</div>
+								<div id="comm_good">
+									<!-- 好评 -->
+								</div>
+								<div id="comm_normal">
+									<!-- 中评 -->
+								</div>
+								<div id="comm_bad">
+									<!-- 差评 -->
+								</div>
+							</div>
+					</div>
+					</div>
+					<div id="p_con_sell">
+						<div class="p_con_sell_bd">
+							<div class="summary-line">
+							<!-- 
+								<label class="title">价&nbsp;格：</label>
+								 ￥<span class="originPrice" id="prodPrice2"></span>
+								<span class="greyTip">拍下价格的不同可能是由于促销和打折引起的，详情可以咨询卖家。</span>
+								 -->
+								 拍下价格的不同可能是由于促销和打折引起的，详情可以咨询卖家。
+							</div>
+							<div class="show_buyer_list">
+								<div class="inThirtyDays">
+									<div class="line">
+										<span class="item">
+											本商品累计售出 <b id="allSaleNum"></b>
+											笔
+										</span>
+										<span class="item">
+											，最近一个月成交 <b id="oneMonthAllDealNum"></b>
+											笔
+										</span>
+									</div>
+								</div>
+								<div id="addSalerRecordDivId">
+								<!-- 销售记录表格 -->
+								</div>
+								<!-- 销售记录 -->
+							</div>
+						</div>
+					</div>
+		</div>
+		<!-- 定义一个form，用于跳转 -->
+		<input type="hidden"  id="buyFormAction"  value="http://buy.esgcc.com.cn/fillinOrder/at_once_buy"/>
+		<form id="toBuyForm"  action=""  method="POST">
+ 		<input id="data" name="data" type="hidden" />
+ 		</form>
+		</div>
+		</div>
+</div>
+<!-- 加入购物车成功 -->
+	<div class="shade_layout"  id="add_shade_layout" style="opacity:0.5; display:none;"></div>
+	<div class="pop_windows pop_tip_w700" id="add_pop_windows" style="display:none;">
+		<div class="layout"> <b class="ico_close" onclick="shoping()"></b>
+			<div class="tips_success">
+				<p class="ok_text">
+					<b class="ico_success"></b>
+					添加成功！
+				</p>
+				<p class="btns">
+					<a class="btn_go_shoping" onclick="shoping()"></a>
+					<a href="http://cart.esgcc.com.cn/showCart/init" class="btn_go_accounts"></a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="shade_layout" id="login_shade_layout" style="display:none;"></div> -->
+	 <div   class="pop_windows" id="login_pop_windows" style="display: none; height:560px;">
+	<b class="ico_close" onclick="hideDetailLogin()">关闭</b>
+		<iframe width="100%" height="100%" frameborder="no" src="https://user.esgcc.com.cn/mallLogin/showDetailLogin2" id="detailLoginIframe">
+			
+		</iframe>
+	</div>
+	<form id="reportForm" action="http://user.esgcc.com.cn/prosecution/newProsecution" method="post">
+	<input type="hidden" id='prodUrl'  name='prodUrl' value="">
+	<input type="hidden" id='reportProdId'  name='reportProdId' value='0000074696'>
+	</form>
+	<input type="hidden" id="staticUrl" value="http://static.esgcc.com.cn">
+
+	<!-- footer start -->
+		<div id='958EF02F-A92F-4106-B66D-E78465AC4600'><script> $(document).ready(function(){ $('#958EF02F-A92F-4106-B66D-E78465AC4600').load("/httpProxyServlet?url=http%3A%2F%2Fgeneral.esgcc.com.cn%2Fgeneral%2Fcommons%2Ffootpage.htm"); });</script></div>
+		<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/general_manager_cookie.js?v=1.0.1116"></script>
+<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/general/general_manager_contrast_bar.js?v=1.0.1116"></script>
+<!-- 添加对比低栏 -->
+<input type="hidden" id="rootUrl" value="http://detail.esgcc.com.cn" />
+	<div class="pop_compare">
+		<div class="pop_inner">
+			<div class="hd">
+				<input id="compare_product" value="http://general.esgcc.com.cn" style="display: none;"/>
+				<input id="detail_product_url" value="http://detail.esgcc.com.cn" style="display: none;"/>
+				<ul class="tab tab_plug_click">
+					<li>
+						<a href="#compare_1">对比栏</a>
+					</li>
+					<!-- 
+					<li>
+						<a href="#compare_2">最近浏览</a>
+					</li>
+					 -->
+				</ul>
+				<span class="closeBtn">隐藏</span>
+			</div>
+			<div class="bd">
+				<div class="inner_bd" id="compare_1">
+					<div class="diff_items" id="compare_prod_area">
+					</div>
+					<div class="diff_operate">
+						<a id="compare_prodect" class="btn_compare_b active" href="javascript:void(0)" onclick="analysis_compare('http://analysis.esgcc.com.cn')" >对比</a>
+						<a class="del_items" onclick="delAllCookied()">清空对比栏</a>
+					</div>
+			</div>
+			<!-- 
+			<div class="inner_bd"  style="display: block;">
+					<div class="diff_items" id="compare_2"></div>
+			</div>
+			 -->
+		</div>
+		</div>
+		
+</div>
+	
+	<input id="detailProductId" style="display:none" value="http://detail.esgcc.com.cn/products/loadProductDetailInfomationAll?productId=0000074696"/>
+	<!-- js code -->
+	<!-- jq js -->
+		<!-- 全局js -->
+	 <script type="text/javascript" src="http://static.esgcc.com.cn/static/js/commons/common.js?v=1.0.1116"></script>
+
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/commons/jquery-ajax.js?v=1.0.1116"></script>
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/3rd/json2.js"></script>
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/3rd/jquery.als-1.6.min.js"></script>
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/3rd/jquery.stickup.js"></script> 
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/3rd/jquery.lazyload.min.js" charset="utf-8"></script>
+	
+	<!--详情页商品详情、规格参数导航 固定顶部 只详情页调用此js-->
+	<script type="text/javascript" src="http://static.esgcc.com.cn/static/js/commons/product_stickup.js?v=1.0.1116"></script>
+	 
+</body>
+</html>
+		 <script >
+document.write("<s"+"cript type='text/javascript' src='http://general.esgcc.com.cn/access/loginfo?site=detail&prodCatId=19002001&productId=0000074696&ram="+Math.random()+"'></scr"+"ipt>"); 
+</script> 

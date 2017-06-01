@@ -1,0 +1,234 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.1
+-- http://www.phpmyadmin.net
+--
+-- 主机: localhost
+-- 生成日期: 2015 年 03 月 11 日 02:53
+-- 服务器版本: 5.5.24-log
+-- PHP 版本: 5.3.13
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- 数据库: `mbshunfeng2015273`
+--
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `jindong_ad`
+--
+
+CREATE TABLE IF NOT EXISTS `jindong_ad` (
+  `ad_id` smallint(5) unsigned NOT NULL AUTO_INCREMENT,
+  `position_id` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `media_type` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `ad_name` varchar(60) NOT NULL DEFAULT '',
+  `ad_link` varchar(255) NOT NULL DEFAULT '',
+  `ad_code` text NOT NULL,
+  `start_time` int(11) NOT NULL DEFAULT '0',
+  `end_time` int(11) NOT NULL DEFAULT '0',
+  `link_man` varchar(60) NOT NULL DEFAULT '',
+  `link_email` varchar(60) NOT NULL DEFAULT '',
+  `link_phone` varchar(60) NOT NULL DEFAULT '',
+  `click_count` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  `enabled` tinyint(3) unsigned NOT NULL DEFAULT '1',
+  PRIMARY KEY (`ad_id`),
+  KEY `position_id` (`position_id`),
+  KEY `enabled` (`enabled`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=194 ;
+
+--
+-- 转存表中的数据 `jindong_ad`
+--
+
+INSERT INTO `jindong_ad` (`ad_id`, `position_id`, `media_type`, `ad_name`, `ad_link`, `ad_code`, `start_time`, `end_time`, `link_man`, `link_email`, `link_phone`, `click_count`, `enabled`) VALUES
+(193, 159, 0, '首页左侧广告', 'http://ectouch.cn/', '1413916122102071507.png', 1381219200, 1983427200, '', '', '', 0, 1);
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `jindong_admin_action`
+--
+
+CREATE TABLE IF NOT EXISTS `jindong_admin_action` (
+  `action_id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,
+  `parent_id` tinyint(3) unsigned NOT NULL DEFAULT '0',
+  `action_code` varchar(20) NOT NULL DEFAULT '',
+  `relevance` varchar(20) NOT NULL DEFAULT '',
+  PRIMARY KEY (`action_id`),
+  KEY `parent_id` (`parent_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=136 ;
+
+--
+-- 转存表中的数据 `jindong_admin_action`
+--
+
+INSERT INTO `jindong_admin_action` (`action_id`, `parent_id`, `action_code`, `relevance`) VALUES
+(1, 0, 'goods', ''),
+(2, 0, 'cms_manage', ''),
+(3, 0, 'users_manage', ''),
+(4, 0, 'priv_manage', ''),
+(5, 0, 'sys_manage', ''),
+(6, 0, 'order_manage', ''),
+(7, 0, 'promotion', ''),
+(8, 0, 'email', ''),
+(9, 0, 'templates_manage', ''),
+(10, 0, 'db_manage', ''),
+(21, 1, 'goods_manage', ''),
+(22, 1, 'remove_back', ''),
+(23, 1, 'cat_manage', ''),
+(24, 1, 'cat_drop', 'cat_manage'),
+(25, 1, 'attr_manage', ''),
+(26, 1, 'brand_manage', ''),
+(27, 1, 'comment_priv', ''),
+(84, 1, 'tag_manage', ''),
+(30, 2, 'article_cat', ''),
+(31, 2, 'article_manage', ''),
+(32, 2, 'shopinfo_manage', ''),
+(33, 2, 'shophelp_manage', ''),
+(34, 2, 'vote_priv', ''),
+(35, 7, 'topic_manage', ''),
+(74, 4, 'template_manage', ''),
+(73, 3, 'feedback_priv', ''),
+(38, 3, 'integrate_users', ''),
+(39, 3, 'sync_users', 'integrate_users'),
+(40, 3, 'users_manage', ''),
+(41, 3, 'users_drop', 'users_manage'),
+(42, 3, 'user_rank', ''),
+(85, 3, 'surplus_manage', 'account_manage'),
+(43, 4, 'admin_manage', ''),
+(44, 4, 'admin_drop', 'admin_manage'),
+(45, 4, 'allot_priv', 'admin_manage'),
+(46, 4, 'logs_manage', ''),
+(47, 4, 'logs_drop', 'logs_manage'),
+(48, 5, 'shop_config', ''),
+(49, 5, 'ship_manage', ''),
+(50, 5, 'payment', ''),
+(51, 5, 'shiparea_manage', ''),
+(52, 5, 'area_manage', ''),
+(53, 6, 'order_os_edit', ''),
+(54, 6, 'order_ps_edit', 'order_os_edit'),
+(55, 6, 'order_ss_edit', 'order_os_edit'),
+(56, 6, 'order_edit', 'order_os_edit'),
+(57, 6, 'order_view', ''),
+(58, 6, 'order_view_finished', ''),
+(59, 6, 'repay_manage', ''),
+(60, 6, 'booking', ''),
+(61, 6, 'sale_order_stats', ''),
+(62, 6, 'client_flow_stats', ''),
+(78, 7, 'snatch_manage', ''),
+(83, 7, 'ad_manage', ''),
+(80, 7, 'gift_manage', ''),
+(81, 7, 'card_manage', ''),
+(70, 1, 'goods_type', ''),
+(82, 7, 'pack', ''),
+(79, 7, 'bonus_manage', ''),
+(75, 5, 'friendlink', ''),
+(76, 5, 'db_backup', ''),
+(77, 5, 'db_renew', 'db_backup'),
+(86, 4, 'agency_manage', ''),
+(87, 3, 'account_manage', ''),
+(88, 5, 'flash_manage', ''),
+(89, 5, 'navigator', ''),
+(90, 7, 'auction', ''),
+(91, 7, 'group_by', ''),
+(92, 7, 'favourable', ''),
+(93, 7, 'whole_sale', ''),
+(94, 1, 'goods_auto', ''),
+(95, 2, 'article_auto', ''),
+(96, 5, 'cron', ''),
+(97, 5, 'affiliate', ''),
+(98, 5, 'affiliate_ck', ''),
+(99, 8, 'attention_list', ''),
+(100, 8, 'email_list', ''),
+(101, 8, 'magazine_list', ''),
+(102, 8, 'view_sendlist', ''),
+(103, 1, 'virualcard', ''),
+(104, 7, 'package_manage', ''),
+(105, 1, 'picture_batch', ''),
+(106, 1, 'goods_export', ''),
+(107, 1, 'goods_batch', ''),
+(108, 1, 'gen_goods_script', ''),
+(109, 5, 'sitemap', ''),
+(110, 5, 'file_priv', ''),
+(111, 5, 'file_check', ''),
+(112, 9, 'template_select', ''),
+(113, 9, 'template_setup', ''),
+(114, 9, 'library_manage', ''),
+(115, 9, 'lang_edit', ''),
+(116, 9, 'backup_setting', ''),
+(117, 9, 'mail_template', ''),
+(118, 10, 'db_backup', ''),
+(119, 10, 'db_renew', ''),
+(120, 10, 'db_optimize', ''),
+(121, 10, 'sql_query', ''),
+(122, 10, 'convert', ''),
+(128, 7, 'exchange_goods', ''),
+(129, 6, 'delivery_view', ''),
+(130, 6, 'back_view', ''),
+(132, 5, 'shop_authorized', ''),
+(133, 5, 'reg_fields', ''),
+(134, 4, 'suppliers_manage', ''),
+(135, 4, 'role_manage', ''),
+(11, 0, 'sms_manage', ''),
+(124, 11, 'sms_send', '');
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `jindong_template`
+--
+
+CREATE TABLE IF NOT EXISTS `jindong_template` (
+  `filename` varchar(30) NOT NULL DEFAULT '',
+  `region` varchar(40) NOT NULL DEFAULT '',
+  `library` varchar(40) NOT NULL DEFAULT '',
+  `sort_order` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `id` smallint(5) unsigned NOT NULL DEFAULT '0',
+  `number` tinyint(1) unsigned NOT NULL DEFAULT '5',
+  `type` tinyint(1) unsigned NOT NULL DEFAULT '0',
+  `theme` varchar(60) NOT NULL DEFAULT '',
+  `remarks` varchar(30) NOT NULL DEFAULT '',
+  KEY `filename` (`filename`,`region`),
+  KEY `theme` (`theme`),
+  KEY `remarks` (`remarks`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- 转存表中的数据 `jindong_template`
+--
+
+INSERT INTO `jindong_template` (`filename`, `region`, `library`, `sort_order`, `id`, `number`, `type`, `theme`, `remarks`) VALUES
+('index', '左边区域', '/library/vote_list.lbi', 8, 0, 0, 0, 'default', ''),
+('index', '左边区域', '/library/email_list.lbi', 9, 0, 0, 0, 'default', ''),
+('index', '左边区域', '/library/order_query.lbi', 6, 0, 0, 0, 'default', ''),
+('index', '左边区域', '/library/cart.lbi', 0, 0, 0, 0, 'default', ''),
+('index', '左边区域', '/library/promotion_info.lbi', 3, 0, 0, 0, 'default', ''),
+('index', '左边区域', '/library/auction.lbi', 4, 0, 3, 0, 'default', ''),
+('index', '左边区域', '/library/group_buy.lbi', 5, 0, 3, 0, 'default', ''),
+('index', '', '/library/recommend_promotion.lbi', 0, 0, 4, 0, 'default', ''),
+('index', '右边主区域', '/library/recommend_hot.lbi', 2, 0, 10, 0, 'default', ''),
+('index', '右边主区域', '/library/recommend_new.lbi', 1, 0, 10, 0, 'default', ''),
+('index', '右边主区域', '/library/recommend_best.lbi', 0, 0, 10, 0, 'default', ''),
+('index', '左边区域', '/library/invoice_query.lbi', 7, 0, 0, 0, 'default', ''),
+('index', '左边区域', '/library/top10.lbi', 2, 0, 0, 0, 'default', ''),
+('index', '左边区域', '/library/category_tree.lbi', 1, 0, 0, 0, 'default', ''),
+('index', '', '/library/brands.lbi', 0, 0, 11, 0, 'default', ''),
+('category', '左边区域', '/library/category_tree.lbi', 1, 0, 0, 0, 'default', ''),
+('category', '右边区域', '/library/recommend_best.lbi', 0, 0, 5, 0, 'default', ''),
+('category', '右边区域', '/library/goods_list.lbi', 1, 0, 0, 0, 'default', ''),
+('category', '右边区域', '/library/pages.lbi', 2, 0, 0, 0, 'default', ''),
+('category', '左边区域', '/library/cart.lbi', 0, 0, 0, 0, 'default', ''),
+('category', '左边区域', '/library/price_grade.lbi', 3, 0, 0, 0, 'default', ''),
+('category', '左边区域', '/library/filter_attr.lbi', 2, 0, 0, 0, 'default', ''),
+('index', '商店公告下广告', '/library/ad_position.lbi', 0, 159, 1, 4, 'ecmoban_shunfeng', ''),
+('index', '', '/library/brands.lbi', 0, 0, 3, 0, 'ecmoban_shunfeng', ''),
+('index', '', '/library/auction.lbi', 0, 0, 3, 0, 'ecmoban_shunfeng', ''),
+('index', '', '/library/group_buy.lbi', 0, 0, 3, 0, 'ecmoban_shunfeng', ''),
+('index', '促销商品区域', '/library/recommend_promotion.lbi', 0, 0, 4, 0, 'ecmoban_shunfeng', ''),
+('index', '全宽行', '/library/recommend_hot.lbi', 1, 0, 5, 0, 'ecmoban_shunfeng', ''),
+('index', '全宽行', '/library/recommend_new.lbi', 0, 0, 5, 0, 'ecmoban_shunfeng', ''),
+('index', '全宽行', '/library/recommend_best.lbi', 2, 0, 5, 0, 'ecmoban_shunfeng', ''),
+('index', '商店公告', '/library/new_articles.lbi', 0, 0, 0, 0, 'ecmoban_shunfeng', '');
