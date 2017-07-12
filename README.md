@@ -1,2 +1,0 @@
-# ecshop
-ecshop demo
